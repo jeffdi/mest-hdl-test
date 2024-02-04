@@ -70,7 +70,7 @@ module tt_um_template (
 );
    wire reset = ! rst_n;
 
-`include "top_gen.sv" //_\TLV
+//`include "top_gen.sv" //_\TLV
    /* verilator lint_off UNOPTFLAT */
    // Connect Tiny Tapeout I/Os to Virtual FPGA Lab.
    `line 77 "/raw.githubusercontent.com/osfpga/VirtualFPGALab/35e36bd144fddd75495d4cbc01c4fc50ac5bde6f/tlvlib/tinytapeoutlib.tlv" 1
